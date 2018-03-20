@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background: url('images/bg.jpg') center center fixed;
+    background-size: cover;
+}
+#header {
+    background: linear-gradient(white, rgba(67,169,228,0.9));
+    background: -webkit-linear-gradient(white, rgba(67,169,228,0.9));
+    background: -moz-linear-gradient(white, rgba(67,169,228,0.9));
+    background: -ms-linear-gradient(white, rgba(67,169,228,0.9));
+    background: -o-linear-gradient(white, rgba(67,169,228,0.9));
+    height: 80px;
+    width: 100%;
+    margin: 10px auto;
+    font-size: 3rem;
+    color: white;
+    padding-top: 20px;
+}
+/* Inputs*/
+.input-container {
+    width: 200px;
+    margin: 0 auto;
+}
+.input {
+    height: 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+#circle {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#thickness-input {
+    position: relative;
+}
+
+#slider {
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid rgba(122, 174, 229, 0.5);
+    margin: 30px auto;
+}
+
+.input-container-2 {
+    width: 799px;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+.input-2 {
+    width: 133px;
+    color: deepskyblue;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background: white;
+    border: 1px solid deepskyblue;
+    float: left;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 12px;
+    font-weight: bold;
+    box-shadow: 2px 4px 20px 2px gray;
+    -webkit-box-shadow: 2px 4px 20px 2px gray;
+    -moz-box-shadow: 2px 4px 20px 2px gray;
+}
+.button:hover {
+    color: white;
+    background: deepskyblue;
+}
+.button:active {
+    position: absolute;
+    box-shadow: 0 0;
+    top: 4px;
+    left: 2px;
+}
+
+#paint {
+    background-color: white;
+    cursor: crosshair;
+}
+
+.erase-mode {
+    background-color: red;
+    color: white;
+}
